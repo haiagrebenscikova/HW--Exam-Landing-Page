@@ -35,7 +35,7 @@ body {
 .heading_page .heading_note {
   width: calc(50%);
   position: relative;
-  top: calc(12em);
+  top: calc(3em);
 }
 
 .heading_page .heading_note h2 {
@@ -55,8 +55,7 @@ body {
 }
 
 .heading_page .heading_form {
-  position: relative;
-  top: calc(12em);
+  margin-top: calc(3em);
   background: rgba(0, 0, 0, 0.5);
   height: calc(24em);
 }
@@ -222,7 +221,7 @@ footer ul {
   }
   .navbar .navbar-brand {
     position: relative;
-    left: calc(2em);
+    left: calc(10em);
   }
   .navbar .navbar-collapse {
     background-color: red;
@@ -233,8 +232,12 @@ footer ul {
   .heading_page #header_heading {
     display: none;
   }
+  .heading_page .heading_note {
+    margin-top: 5em;
+  }
   .heading_page .heading_note h2 {
     font-size: 24px;
+    text-align: center;
   }
   .heading_page .heading_note .bi-check-square-fill {
     color: #008ed6;
@@ -247,11 +250,10 @@ footer ul {
     font-size: 16px;
   }
   .heading_page .heading_form {
-    width: calc(62.5%);
+    /*width: calc(62.5%);*/
     height: 100%;
-    position: relative;
-    top: -25em;
-    left: calc(20em);
+    margin-top: calc(17em);
+    margin-left: calc(5em);
   }
   .heading_page .heading_form h2 {
     text-align: center;
@@ -308,12 +310,12 @@ footer ul {
   .packages_page .list_card {
     padding: 1em 0 1em 0;
   }
-  .video_page .colored-line {
+  .video_page .container .colored-line {
     position: relative;
     top: -1em;
     left: calc(16em);
   }
-  .video_page iframe {
+  .video_page .container iframe {
     width: 100%;
   }
   .carousel_screenshots .colored-line {
@@ -351,7 +353,7 @@ footer ul {
   }
   .heading_page .heading_note h2 {
     position: relative;
-    top: -3em;
+    top: calc(2em);
     text-align: center;
     font-size: 26px;
   }
@@ -364,8 +366,8 @@ footer ul {
   .heading_page .heading_form {
     width: 100%;
     position: relative;
-    top: calc(9em);
-    left: 0;
+    top: -9em;
+    right: calc(5em);
   }
   .heading_page .heading_form h2 {
     font-size: 22px;
@@ -408,7 +410,7 @@ footer ul {
   .features_page .colored-line {
     position: relative;
     top: -1em;
-    left: calc(9em);
+    left: calc(8em);
   }
   .packages_page .colored-line {
     position: relative;
@@ -418,15 +420,15 @@ footer ul {
   .video_page {
     padding-top: calc(4em);
   }
-  .video_page .colored-line {
+  .video_page .container .colored-line {
     position: relative;
     top: -1em;
     left: calc(8em);
   }
-  .video_page header h2 {
+  .video_page .container header h2 {
     padding-bottom: calc(2em);
   }
-  .video_page iframe {
+  .video_page .container iframe {
     width: 100%;
     height: 100%;
   }
